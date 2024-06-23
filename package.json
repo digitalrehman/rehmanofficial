@@ -7,7 +7,7 @@
   "author": "abdul rehman",
   "repository": {
     "type": "git",
-    "url": "https://github.com/arifszn/gitprofile.git"
+    "url": "https://github.com/Digitalrehman/rehman-official"
   },
   "scripts": {
     "dev": "vite",
@@ -86,5 +86,6 @@
     "sirabdulrehman",
     "rehmanofficial",
     "rehmanarain"
-  ]
+  ],
+  "homepage": "https://rehman-official.netlify.app/gitprofile"
 }
