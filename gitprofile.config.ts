@@ -151,7 +151,7 @@ const CONFIG = {
   
   blog: {
     source: 'dev',
-    username: 'digitalrehman', 
+    username: 'rehmanofficial', 
     limit: 2,
   },
   googleAnalytics: {
