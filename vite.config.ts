@@ -4,9 +4,9 @@ import { VitePWA } from 'vite-plugin-pwa';
 import CONFIG from './gitprofile.config';
 import { createHtmlPlugin } from 'vite-plugin-html';
 
-// Ensure the base path matches your deployment subdirectory
+// https://vitejs.dev/config/
 export default defineConfig({
-  base: '/gitprofile/',
+  base: CONFIG.base || '/',
   plugins: [
     react(),
     createHtmlPlugin({
@@ -23,17 +23,16 @@ export default defineConfig({
           VitePWA({
             registerType: 'autoUpdate',
             workbox: {
-              navigateFallback: 'index.html', // Set navigateFallback to handle SPA routing
+              navigateFallback: undefined,
             },
             includeAssets: ['logo.png'],
             manifest: {
-              name: 'Portfolio',
-              short_name: 'Portfolio',
-              description: 'Personal Portfolio',
-              theme_color: '#ffffff',
+              name: 'rehmanofficialportfolio',
+              short_name: 'rehmanofficial',
+              description: 'rehman official personal Portfolio',
               icons: [
                 {
-                  src: '/gitprofile/logo.png', // Ensure this path is correct
+                  src: 'logo.png',
                   sizes: '64x64 32x32 24x24 16x16 192x192 512x512',
                   type: 'image/png',
                 },
@@ -44,6 +43,6 @@ export default defineConfig({
       : []),
   ],
   define: {
-    CONFIG: JSON.stringify(CONFIG), // Make sure CONFIG is correctly stringified
+    CONFIG: CONFIG,
   },
 });

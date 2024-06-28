@@ -7,7 +7,7 @@
   "author": "abdul rehman",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Digitalrehman/rehman-official"
+    "url": "https://github.com/Digitalrehman/rehmanofficial"
   },
   "scripts": {
     "dev": "vite",
