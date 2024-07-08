@@ -140,6 +140,14 @@ const ExternalProjectCard = ({
                       </span>
                     )}
                   </h5>
+                    <a
+                      href={`https://github.com/${username}?tab=repositories`}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-base-content opacity-50 hover:underline"
+                    >
+                      See All
+                    </a>
                 </div>
                 <div className="col-span-2">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
