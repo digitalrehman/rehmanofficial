@@ -30,7 +30,7 @@ const CONFIG = {
           description:
             'This is Gemini AI Clone you can use this project for your personal work',
           imageUrl:
-            'https://drehmanportfolio.netlify.app/img/gemini.PNG',
+            'https://res.cloudinary.com/daarlhxp1/image/upload/v1720355757/screencapture-gemini-clo-netlify-app-2024-07-07-17_32_55_ua5wxu.jpg',
           link: 'https://gemini-clo.netlify.app/',
         },
         {
@@ -38,7 +38,7 @@ const CONFIG = {
           description:
             'This is Modern TODO List you can use this project for your personal work and add your task for lifetime',
           imageUrl:
-            'https://drehmanportfolio.netlify.app/img/moderntodo.png',
+            'https://res.cloudinary.com/daarlhxp1/image/upload/v1720412290/screencapture-moderntodolist01-netlify-app-2024-07-08-09_13_15_p7u3lz.jpg',
           link: 'https://moderntodolist01.netlify.app/',
         }
       ],
