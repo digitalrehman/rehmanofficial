@@ -73,7 +73,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf'
+      'https://drive.google.com/file/d/1unVJS80dXEo_BSwp12pXSMjUNVXlsWdv/view?usp=drive_link'
   },
   skills: [
     'JavaScript',
