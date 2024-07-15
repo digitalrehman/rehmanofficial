@@ -67,7 +67,7 @@ const CONFIG = {
     stackoverflow: '22587822/abdul-rehman',
     skype: '',
     telegram: '',
-    website: 'https://drehmanportfolio.netlify.app',
+    website: 'https://rehmanofficialprojects.pages.dev/',
     phone: '3433133834',
     email: 'abdulrehmanarain1018@gmail.com',
   },
