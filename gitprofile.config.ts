@@ -50,12 +50,12 @@ const CONFIG = {
     imageURL: 'https://drehmanportfolio.netlify.app/img/ProfileMe.jpg',
   },
   social: {
-    linkedin: 'rehmanarainoffical',
+    linkedin: 'rehmanarainofficial',
     twitter: 'rehman_digital',
     mastodon: '',
     researchGate: '',
-    facebook: 'rehmanarainofficail',
-    instagram: 'rehmanarainoffical',
+    facebook: 'rehmanarainofficial',
+    instagram: 'rehmanarainofficial',
     reddit: '',
     threads: '',
     youtube: 'upgradeskill1',
@@ -159,7 +159,7 @@ const CONFIG = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '5032309',
+    id: '5107432',
     snippetVersion: 6,
   },
   themeConfig: {
